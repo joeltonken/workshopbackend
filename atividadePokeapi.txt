@@ -1,0 +1,47 @@
+-Mew
+ "types": [
+    {
+      "slot": 1,
+      "type": {
+        "name": "psychic",
+        "url": "https://pokeapi.co/api/v2/type/14/"
+      }
+    }
+  ]
+Link principal do Mew: {"url":"https://pokeapi.co/api/v2/evolution-chain/78/"}
+
+Sem evolução: {"name":"mew","url":"https://pokeapi.co/api/v2/pokemon-species/151/"}  
+
+-Chikorita
+"types": [
+    {
+      "slot": 1,
+      "type": {
+        "name": "grass",
+        "url": "https://pokeapi.co/api/v2/type/12/"
+      }
+    }
+  ]
+Link principal de Chikorita: {"url":"https://pokeapi.co/api/v2/evolution-chain/79/"}
+
+Chikorita - {"name":"chikorita","url":"https://pokeapi.co/api/v2/pokemon-species/152/"}
+Evolução:
+Bayleef - {"name":"bayleef","url":"https://pokeapi.co/api/v2/pokemon-species/153/"}
+Meganium - {"name":"meganium","url":"https://pokeapi.co/api/v2/pokemon-species/154/"}
+
+-Magikarp
+"types": [
+    {
+      "slot": 1,
+      "type": {
+        "name": "water",
+        "url": "https://pokeapi.co/api/v2/type/11/"
+      }
+    }
+  ]
+
+Link principal de Magikarp: {"url":"https://pokeapi.co/api/v2/evolution-chain/64/"}
+
+Magikarp - {"name":"magikarp","url":"https://pokeapi.co/api/v2/pokemon-species/129/"}
+Evolução: 
+Gyarados - {"name":"gyarados","url":"https://pokeapi.co/api/v2/pokemon-species/130/"}
