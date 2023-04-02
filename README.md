@@ -18,10 +18,10 @@ Nesse caso, como há um único recurso, utiliza-se o seguinte URL - http://127.0
 Endpoint |Método HTTP | Método CRUD | Resultado
 -- | -- |-- |--
 `` | GET | LER | Obter todos os filmes
-`` | GET | LER | Obter um único filme
+`/id_gerado/` | GET | LER | Obter um único filme
 ``| POST | CRIAR | Criar um novo filme
-`` | PUT | ATUALIZAR | Atualizar um filme
-`` | DELETE | EXCLUIR | Excluir um filme
+`/id_gerado/` | PUT | ATUALIZAR | Atualizar um filme
+`/id_gerado/` | DELETE | EXCLUIR | Excluir um filme
 
 e a URL - http://127.0.0.1:8000/admin/ para logar com o superuser (ou criar um com o python manage.py createsuperuser):
 
@@ -74,4 +74,4 @@ A API tem algumas restrições:
 -   Somente o criador de um filme pode atualizá-lo ou excluí-lo.
 -   Solicitações não autenticadas não devem ter acesso e receberão o aviso "As credenciais de autenticação não foram fornecidas."
 
-API realizada interamente em python com django-rest-framework.
+API realizada inteiramente em python com django-rest-framework.
