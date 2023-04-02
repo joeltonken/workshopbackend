@@ -24,10 +24,12 @@ Endpoint |Método HTTP | Método CRUD | Resultado
 `` | DELETE | EXCLUIR | Excluir um filme
 
 e a URL - http://127.0.0.1:8000/admin/ para logar com o superuser (ou criar um com o python manage.py createsuperuser):
-*login: fabrica
-*senha: 12345
 
-Além disso, também há a funcionalidade de Filtro e Ordenação para ver os filmes cadastrados.
+-LOGIN: fabrica
+
+-PASSWORD: 12345
+
+Além disso, também há a funcionalidade de Filtro e Ordenação para ver e organizar os filmes cadastrados.
 
 ## Instrução
 
