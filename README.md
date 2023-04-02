@@ -4,17 +4,9 @@
 [Django REST framework](http://www.django-rest-framework.org/) é um kit de ferramentas poderosas e flexíveis para criar APIs da Web.
 
 ## Exigências
-- Python 
-- Django REST Framework
-
-## Instalação
-```
-	pip install django
-	pip install djangorestframework
-	pip install django-filter
-	pip install pillow
-  	pip install psycopg2
-```
+- Python 3.11
+- Django REST Framework 3.14
+- PostgreSQL Database
 
 ## Estrutura
 
@@ -33,7 +25,11 @@ Endpoint |Método HTTP | Método CRUD | Resultado
 
 ## Instrução
 
-### Crie o ambiente virtual
+### Clonar o repositório do projeto:
+```
+git clone https://github.com/joeltonken/workshopbackend/tree/desafio
+```
+### Criar o ambiente virtual
 ```
 python -m venv venv
 ```
