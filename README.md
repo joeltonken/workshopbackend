@@ -10,7 +10,7 @@
 
 ## Estrutura
 
-A API tem como princípio adicionar filmes, assim como os usuários podem acessar dados do aplicativo usando os métodos HTTP - GET, POST, PUT, DELETE. 
+A API tem como princípio adicionar filmes, além do usuário poder acessar dados do aplicativo usando os métodos HTTP - GET, POST, PUT, DELETE. 
 Essa etapa de criação somente poderá ser feita por um user.
 
 Nesse caso, como há um único recurso, utiliza-se o seguinte URL - http://127.0.0.1:8000/:
@@ -22,6 +22,12 @@ Endpoint |Método HTTP | Método CRUD | Resultado
 ``| POST | CRIAR | Criar um novo filme
 `` | PUT | ATUALIZAR | Atualizar um filme
 `` | DELETE | EXCLUIR | Excluir um filme
+
+e a URL - http://127.0.0.1:8000/admin/ para logar com o superuser (ou criar um com o python manage.py createsuperuser):
+# login: fabrica
+# senha: 12345
+
+Além disso, também há a funcionalidade de Filtro e Ordenação para ver os filmes cadastrados.
 
 ## Instrução
 
@@ -64,6 +70,6 @@ pip install -r requirements.txt
 A API tem algumas restrições:
 -   Somente usuário cadastrado(superuser) pode criar e ver filmes.
 -   Somente o criador de um filme pode atualizá-lo ou excluí-lo.
--   Solicitações não autenticadas não devem ter acesso.
+-   Solicitações não autenticadas não devem ter acesso e receberão o aviso "As credenciais de autenticação não foram fornecidas."
 
 API realizada interamente em python com django-rest-framework.
