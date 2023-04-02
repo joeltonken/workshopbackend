@@ -13,7 +13,7 @@
 	pip install djangorestframework
 	pip install django-filter
 	pip install pillow
-  pip install psycopg2
+  	pip install psycopg2
 ```
 
 ## Estrutura
@@ -66,7 +66,7 @@ pip install -r requirements.txt
 ```
 
 A API tem algumas restrições:
--   Somente usuários autenticados podem criar e ver filmes.
+-   Somente usuário cadastrado(superuser) pode criar e ver filmes.
 -   Somente o criador de um filme pode atualizá-lo ou excluí-lo.
 -   Solicitações não autenticadas não devem ter acesso.
 
