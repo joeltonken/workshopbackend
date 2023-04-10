@@ -6,7 +6,6 @@
 ## Exigências
 - Python 3.11
 - Django REST Framework 3.14
-- PostgreSQL Database
 
 ## Estrutura
 
